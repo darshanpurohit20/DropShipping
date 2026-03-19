@@ -13,25 +13,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Arey Beta - Premium Lifestyle Products | ₹300-1000',
+  title: 'Arey Beta - Premium Lifestyle Products',
   description: 'Discover curated lifestyle products at unbeatable prices. Shop trending gadgets, fashion accessories, and home essentials with free shipping across India.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
+    apple: '/icon.svg',
   },
 }
 
